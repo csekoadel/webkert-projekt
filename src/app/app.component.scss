@@ -1,0 +1,34 @@
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.cim {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700; /* Itt az egyik súlyt kell megadnod 400 és 700 között */
+    font-style: normal;
+}
+
+.main_component{
+    height: 100vh;
+}
+a{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400; /* Itt az egyik súlyt kell megadnod 400 és 700 között */
+    font-style: normal;
+    text-decoration: none;
+}
+a:hover, a:active{
+    color:#f005d1;
+}
+.navigation{
+    list-style:none;
+    padding:0;
+    margin:0;
+
+}
+mat-sidenav{
+    width:250px;
+}

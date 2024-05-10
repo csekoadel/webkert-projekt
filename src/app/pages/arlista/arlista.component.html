@@ -1,0 +1,12 @@
+<html>
+    <body>
+    <div>
+        <h2>Árlista</h2>
+        <ul>
+            <li *ngFor="let feladat of feladatok; let i = index">
+              {{ feladat.nev }} - {{ feladat.ar }} Ft
+            </li>
+          </ul>
+      </div>
+    </body>
+</html>

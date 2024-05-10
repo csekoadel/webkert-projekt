@@ -1,0 +1,33 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* hozzáadott overflow tulajdonság */
+  }
+  
+  .about-me {
+    width: 100%;
+    height: 100%;
+    padding: 20px; /* opcionális: adhatsz belső margót */
+    box-sizing: border-box; /* azért, hogy a padding ne növelje a méretet */
+    overflow: auto; /* hozzáadott overflow tulajdonság */
+  }
+  
+
+
+.about-me h2 {
+    color:#f005d1;
+    font-family:'Dancing Script', cursive;
+    padding: 15px 15px;
+    font-size:35px;
+    text-align: center;
+   
+}
+
+.about-me p {
+    font-size: 25px;
+    color: black;
+    line-height: 1.5;
+    justify-content: center;
+    text-align:center;
+}

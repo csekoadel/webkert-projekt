@@ -1,0 +1,32 @@
+
+mat-card{
+    width:80%;
+    height:80%;
+    align-self: center;
+}
+mat-card-header{
+    display:initial;
+}
+.div-flex{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+    height:80%;
+}
+.main_component{
+    height:100vh;
+}
+mat-card-title{
+    color:#f005d1;
+    font-family:'Dancing Script', cursive;
+    padding: 15px 15px;
+    font-size:35px;
+}
+p{
+    color:#f005d1;
+    font-family:'Dancing Script', cursive;
+    padding: 15px 15px;
+    font-size:20px;
+}
+

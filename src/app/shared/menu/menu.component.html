@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<mat-nav-list>
+    <a mat-list-item routerLink="/belepes" (click)="close()" *ngIf="!loggedInUser">
+        <mat-icon>login</mat-icon>
+        <span>Belépés</span>
+    </a>
+    <a mat-list-item routerLink="/belepes" (click)="close(true)" *ngIf="loggedInUser">
+        <mat-icon>logout</mat-icon>
+        <span>Kilépés</span>
+    </a>
+    <a mat-list-item routerLink="/regisztracio" (click)="close()">
+        <mat-icon>app_registration</mat-icon>
+        <span>Regisztráció</span>
+    </a>
+    <a mat-list-item routerLink="/fooldal" (click)="close()">
+        <mat-icon>grid_view</mat-icon>
+        <span>Főoldal</span>
+    </a>
+    <a mat-list-item routerLink="/rolam" (click)="close()">
+        <mat-icon>person</mat-icon>
+        <span>Rólam</span>
+    </a>
+    <a mat-list-item routerLink="/munkak" (click)="close()">
+        <mat-icon>work</mat-icon>
+        <span>Munkák</span>
+    </a>
+    <a mat-list-item routerLink="/kontakt" (click)="close()">
+        <mat-icon>info</mat-icon>
+        <span>Kontakt</span>
+
+    </a>
+    <a  mat-list-item routerLink="/idopont" (click)="close()">
+        <mat-icon>schedule</mat-icon>
+        <span>Időpont</span>
+
+    </a>
+    <a  mat-list-item routerLink="/arlista" (click)="close()">
+        <mat-icon>sell</mat-icon>
+        <span>Árlista</span>
+
+    </a>
+     
+</mat-nav-list>
+</body>
+</html>
+
+
